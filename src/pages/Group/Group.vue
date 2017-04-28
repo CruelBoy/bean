@@ -74,6 +74,7 @@
 
 
 <style>
+.group { padding-bottom:51px; }
 .group_top{ height:97px; width:100%; background-image:url(../../assets/images/group_03.jpg); background-size:100% 100%; background-repeat:no-repeat; text-align:center; padding-top:50px;}
 .group_top p{ font-size:20px; color:#454545; font-weight:bold; }
 .group_top span{ font-size:18px; color:#a1a0a2;}
