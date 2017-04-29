@@ -31,7 +31,8 @@ export default new Router({
           {path:'book',component:Book},
           {path:'television',component:Television},
           {path:'citywide',component:Citywide},
-          {path:'music',component:Music}
+          {path:'music',component:Music},          
+          {path:'/',component:Movie},          
         ]
     },
     {

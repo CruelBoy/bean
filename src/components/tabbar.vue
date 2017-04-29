@@ -45,5 +45,6 @@
 
 
 <style>
+
 .foot_tabbar{ width:100%; position:fixed; bottom:0; left:0; overflow:hidden; background:#f7f7f7; border-top:1px solid #e1dfe0; height:64px; z-index:1000; }
 </style>

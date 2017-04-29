@@ -2,7 +2,7 @@
 	<div class="footer" @click='turn'>
 		<span class="bar_img" v-show='!isActive'><slot name='bar_img'></slot></span>  
 		<span class="bar_img" v-show='isActive'><slot name='active_img'></slot></span>  
-		<slot name='bar_txt'></slot>   
+		<span :class="{active:isActive}"><slot name='bar_txt'></slot></span>  
 	</div>
 </template>
 
@@ -34,6 +34,7 @@ export default{
 
 
 <style>
+.footer .active span{color:#40bd55}
 .footer{ float:left; width:20%; padding-top:5px; padding-bottom:5px;}
 .footer .bar_img{ width:32px; display:inline-block; }
 .footer img{ max-width:100%; }

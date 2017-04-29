@@ -5,7 +5,7 @@
 			<img slot="left_icon" src="../../assets/images/ic_group_search.png">
 			<img slot="right_icon" src="../../assets/images/ic_chat_green.png">
 		</bNav>	
-		<bSubNav @sendmark='getmark' :val='selected'></bSubNav>
+		<bSubNav></bSubNav>
 	</div>
 </template>
 
@@ -14,18 +14,9 @@
 <script>
 	import bNav from '../../components/header'
 	import bSubNav from '../../components/broad_nav'
+	import mMovie from '../Movie/Movie'
 	export default{
-		data(){
-			return{
-				selected: 'item1',
-			}
-		},
-		methods:{
-			getmark:function(val){
-				this.selected = val 
-				console.log(val)
-			}
-		},
+
 		components:{
 			bNav,
 			bSubNav
