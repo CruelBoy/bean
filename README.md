@@ -1,6 +1,6 @@
 # bean
 
-> A Vue.js project
+> Vue.2.0+webpack+vue-cli脚手架+vue-router二级路由+swiper 实现的豆瓣webapp
 
 ## Build Setup
 
