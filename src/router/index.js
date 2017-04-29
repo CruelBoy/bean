@@ -6,6 +6,13 @@ import AudioBook from '../pages/AudioBook/AudioBook'
 import Group from '../pages/Group/Group'
 import Mine from '../pages/Mine/Mine'
 
+// 二级路由
+import Movie from '../pages/Movie/Movie'
+import Book from '../pages/Book/Book'
+import Television from '../pages/Television/Television'
+import Citywide from '../pages/Citywide/Citywide'
+import Music from '../pages/Music/Music'
+
 Vue.use(Router)
 
 export default new Router({
@@ -18,7 +25,14 @@ export default new Router({
     {
       path: '/broadcast',
       name: 'Broadcast',
-      component: Broadcast
+      component: Broadcast,
+        children:[
+          {path:'movie',component:Movie},
+          {path:'book',component:Book},
+          {path:'television',component:Television},
+          {path:'citywide',component:Citywide},
+          {path:'music',component:Music}
+        ]
     },
     {
       path: '/audioBook',

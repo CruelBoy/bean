@@ -10,11 +10,13 @@
 		</hotContent>
 
 		<hotContent>
-			<h2 slot="h_tittle">我花了很长时间和容貌焦虑症对抗</h2>
-			<p slot="h_content">整容不能直面心里的创口，直面心里的平凡才是真正的平凡</p>
-			<span slot="h_autor">作者：中国三明治</span>
-			<img slot="h_img" src="../assets/images/h_img_03.png"/>
-		</hotContent>		
+			<h2 slot="h_tittle">太史公致命基因以及《史记》到底咋过审的</h2>
+			<p slot="h_content">司马迁把项羽写成真英雄，而刘邦就是一个地痞无赖-这种文字怎么过...</p>
+			<span slot="h_autor">作者：treasure</span>
+			<img slot="h_img" src="../assets/images/shiji_06.png"/>
+		</hotContent>	
+
+
 	</div>
 </template>
 

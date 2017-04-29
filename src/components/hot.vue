@@ -3,10 +3,7 @@
 		<hotList>
 			<span slot="h_tit">热点</span>
 		</hotList>	
-
-		<hotList>
-			<span slot="h_tit">豆瓣时间</span>
-		</hotList>					
+				
 	</div>
 </template>
 

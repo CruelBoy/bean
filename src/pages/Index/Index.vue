@@ -19,6 +19,7 @@
 		</hBanner>
 
 		<hHot></hHot>
+		<mTime></mTime>
 	</div>
 </template>
 
@@ -28,6 +29,7 @@
 import '../../assets/lib/swiper/js/swiper.js'
 import hBanner from '../../components/banner'
 import hHot from '../../components/hot'
+import mTime from '../../components/time'
 export default {
 	mounted(){
 		var mySwiper = new Swiper ('.swiper-container', {
@@ -39,7 +41,8 @@ export default {
 	},
   	components:{
   		hBanner,
-  		hHot
+  		hHot,
+  		mTime
   	}
 }
 
